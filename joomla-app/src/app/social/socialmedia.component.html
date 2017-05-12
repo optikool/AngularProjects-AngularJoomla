@@ -1,0 +1,5 @@
+<ul class="list-inline">
+ <li class="list-inline-item" *ngFor="let menu of socialMenu; let i = index">
+   <a href="#" (click)="handleSocialLink(i)">{{menu.name}}</a>
+ </li>
+</ul>

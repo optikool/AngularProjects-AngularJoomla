@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-socialmedia',
-  templateUrl: './socialmedia.component.html',
-  styleUrls: ['./socialmedia.component.css']
+  selector: 'jma-social-media',
+  templateUrl: './social-media.component.html',
+  styleUrls: ['./social-media.component.scss']
 })
-export class SocialmediaComponent implements OnInit {
+export class SocialMediaComponent implements OnInit {
   public socialMenu = [
     { name: 'Google+', uri: 'http://www.google.com/+' },
     { name: 'Facebook', uri: 'http://www.facebook.com/mae.a.harris' },
